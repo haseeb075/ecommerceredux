@@ -27,13 +27,14 @@ export default function ProductListing() {
   })
 
   // Consoling log all the products which we have the set in our redux
-  console.log("Products from Redux", products); // Once we get the data from our products we are dispatching our action(SET_PRODUCTS)
+  console.log("Products from ReduxStore", products); // Once we get the data from our products we are dispatching our action(SET_PRODUCTS)
   // Once we set the products we are actually changing the state
 
 
   return (
     <div className="ui grid container">
-      <h1>Product Listing</h1>
+      <h5>All Products</h5>
+      
       <ProductComponent />
     </div>
   );
