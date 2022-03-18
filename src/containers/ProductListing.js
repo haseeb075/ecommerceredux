@@ -5,7 +5,7 @@ import ProductComponent from "./ProductComponent";
 import { setProducts} from '../redux/actions/productActions'
 
 export default function ProductListing() {
-  // In order to get access to our store to get state, we use useSelector
+  // In order to get access to our store to get state, we use useSelector or Allows you to extract data from the Redux store state, using a selector function.
   const products = useSelector((state) => state);
   // console.log("Store products",products);
   // Once we get the data from server we have to dispatch our action i.e. setProducts
