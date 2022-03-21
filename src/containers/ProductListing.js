@@ -26,7 +26,7 @@ export default function ProductListing() {
     fetchProducts()
   })
 
-  // Consoling log all the products which we have the set in our redux
+  // Consoling log all the products which we have the set in our redux with store action
   console.log("Products from ReduxStore", products); // Once we get the data from our products we are dispatching our action(SET_PRODUCTS)
   // Once we set the products we are actually changing the state
 
