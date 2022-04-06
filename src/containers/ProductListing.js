@@ -24,7 +24,7 @@ export default function ProductListing() {
   // getting all products from api- end
   useEffect(()=> {
     fetchProducts()
-  })
+  },[])
 
   // Consoling log all the products which we have the set in our redux with store action
   console.log("Products from ReduxStore", products); // Once we get the data from our products we are dispatching our action(SET_PRODUCTS)
